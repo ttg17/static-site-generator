@@ -31,7 +31,7 @@ def text_node_to_html_node(text_node: TextNode) -> LeafNode:
     if isinstance(text_node.text_type, TextType):
         node_type = text_node.text_type
     else:
-        raise Exception(f"Invalid text type: {text_node.text_type}")  # noqa: TRY004
+        raise Exception(f"Invalid text type: {text_node.text_type}")  # noqa: TRY002, TRY004
 
     match node_type:
         case TextType.TEXT:
