@@ -32,6 +32,8 @@ class LeafNode(HTMLNode):
         super().__init__(tag, value, None, props)
 
     def to_html(self):
+        if self.tag == 'img':
+            return f'<img{self.props_to_html()}>'
         if not self.value:
             raise ValueError()
         elif not self.tag:

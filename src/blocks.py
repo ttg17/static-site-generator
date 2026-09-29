@@ -82,15 +82,3 @@ def text_to_children(text):
         html_node = text_node_to_html_node(node)
         html_nodes.append(html_node)
     return html_nodes
-
-
-# def block_type_tag(block_text: str, block_type: BlockType):
-#     if block_type == BlockType.HEADING:
-#         for i in range(6, 0, -1):
-#             if block_text.startswith('#' * i):
-#                 tag = '#' * i
-#                 return tag
-#     elif block_type == BlockType.QUOTE:
-#         return 'blockquote'
-#     elif block_type == BlockType.UNORDERED_LIST:
-#         return 'ul'
