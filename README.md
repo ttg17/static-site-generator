@@ -29,7 +29,8 @@ https://ttg17.github.io/static-site-generator/
 From the project root:
 
 ```bash
-python3 src/main.py "/static-site-generator/"
+python3 src/main.py
+cd docs && python3 -m http.server 8888
 ```
 
 This will generate the site in the `docs/` folder.
