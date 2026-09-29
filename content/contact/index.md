@@ -2,8 +2,8 @@
 
 [< Back Home](/)
 
-Give me a call anytime to chat about Tolkien!
+Send me an email anytime to chat about Tolkien!
 
-`555-555-5555`
+taha.kabul17@gmail.com
 
-**"Váya márië."**
+**Taha Mohammadyar**
